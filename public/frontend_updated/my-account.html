@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>OrganicFood | My Account</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="all">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css" media="all">
+    <link rel="stylesheet" href="css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header of the page starts.. -->
+    <header class="w-100 fixed-top">
+            <div class="w-100 bg-light-g">
+                <div class="container container-header">
+                    <ul class="top-nav">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li class="dropdown">
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle drop-lang" aria-haspopup="true" aria-expanded="false">En <i class="fas fa-chevron-down"></i></a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="#">En</a>
+                                <a class="dropdown-item" href="#">Fr</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-100">
+                <div class="container container-header">
+                    <div class="wrap-form">
+                        <div class="logo-wrapper">
+                            <div><a href="index.html"><img src="img/logo.png"></a></div>
+                        </div>
+                        <div class="row m-0">
+                        <form class="form-horizontal form-zipcode col-md-6 col-12" action="#">
+                            <div class="form-group m-0">
+                            <input type="text" class="form-control txt-box" placeholder="Enter Zip Code">
+                            </div>
+                        </form>
+                        <div class="wrap-btns">
+                            <button type="button" class="btn" data-toggle="modal" data-target="#loginModal">Sign In</button>
+                            <button type="button" class="btn" data-toggle="modal" data-target="#signUpModal">Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100 bg-primary nav-wrapper">
+                <div class="container container-header">
+                    <div class="row m-0">
+                        <nav class="navbar navbar-expand-lg navbar-light pl-0">
+                            <button type="button" data-toggle="collapse" class="navbar-toggler" aria-expanded="false" data-target="#navigation"><span class="navbar-toggler-icon"><i class="fas fa-bars text-white"></i></span></button>
+                            <div class="collapse navbar-collapse" id="navigation">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                <a href="#" class="nav-link">Meals</a>
+                                </li>
+                                <li class="nav-item">
+                                <a href="#" class="nav-link">Fruits</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Vegetables</a>
+                                </li>
+                                <li class="nav-item">
+                                <a href="#" class="nav-link">Meat & Poultry</a>
+                                </li>
+                                <li class="nav-item">
+                                <a href="#" class="nav-link">Dairy</a>
+                                </li>
+                                <li class="nav-item">
+                                <a href="#" class="nav-link">Bakery & Pastry</a>
+                                </li>
+                                <li class="nav-item">
+                                <a href="#" class="nav-link">Party Platters</a>
+                                </li>
+                            </ul>
+                            </div>
+                        </nav>
+                        <div class="sec-bill">
+                            <a href="#" class="d-inline-block"><img src="img/ico-case.png" alt="icon-cart"> 2 - $230 USD</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <main role="content" class="container-main container container-custom">
+        <div class="row">
+            <aside class="sidenav col-lg-3 col-12">
+                <div class="sidenav__close-icon">
+                    <i class="fas fa-times"></i>
+                </div>
+                <ul class="sidenav__list">
+                    <li class="nav-item head">My Account</li>
+                    <li class="seperator"></li>
+                    <li class="nav-item sub-head">Main Menu</li>
+                    <li class="sidenav__list-item"><a href="orders-page.html"><img src="img/ico-order.png" alt="icon order"><span>Orders</span></a></li>
+                    <li class="sidenav__list-item active"><a href="all-products.html"><img src="img/ico-farm.png" alt="icon Account Settings"><span>Account Settings</span></a></li>
+                </ul>
+            </aside>
+            <div id="main" class="col-lg-9 col-12">
+                <div class="menu-icon">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="col-12 row m-0 form-settings order-list">
+                    <h2>Account Settings</h2>
+                    <form class="form-horizontal form-contact cr-prod">
+                        <div class="wrap-row">
+                            <div class="row">
+                                <div class="form-group mb-3 col-lg-6">
+                                    <label for="first-name">First Name<sup>*</sup></label>
+                                    <input type="text" class="form-control form-control-lg" id="first-name" placeholder="Elija">
+                                </div>
+                                <div class="form-group mb-3 col-lg-6">
+                                    <label for="last-name">Last Name<sup>*</sup></label>
+                                    <input type="text" class="form-control form-control-lg" id="last-name" placeholder="Crawford">
+                                </div>    
+                            </div>
+                            <div class="row">
+                                <div class="form-group mb-3 col-lg-6">
+                                    <label for="email">Email<sup>*</sup></label>
+                                    <input type="email" class="form-control form-control-lg" placeholder="myemail@email.com">
+                                </div>
+                                <div class="form-group mb-3 col-lg-6">
+                                    <label for="phone">Phone<sup>*</sup></label>
+                                    <input type="tel" class="form-control form-control-lg" placeholder="+1 123 456 789">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap-row">
+                            <h2>Shipping Address</h2>
+                            <div class="row">
+                                <div class="form-group mb-3 col-lg-6">
+                                    <label for="firstname">First Name<sup>*</sup></label>
+                                    <input type="text" class="form-control form-control-lg" id="first-name" placeholder="Elija">
+                                </div>
+                                <div class="form-group mb-3 col-lg-6">
+                                    <label for="lastname">Last Name<sup>*</sup></label>
+                                    <input type="text" class="form-control form-control-lg" id="last-name" placeholder="Crawford">
+                                </div>    
+                            </div>
+                            <div class="row">
+                                <div class="form-group mb-3 col-lg-6">
+                                    <label for="emailAddress">Email<sup>*</sup></label>
+                                    <input type="emailAddress" class="form-control form-control-lg" placeholder="myemail@email.com">
+                                </div>
+                                <div class="form-group mb-3 col-lg-6">
+                                    <label for="phonenum">Phone<sup>*</sup></label>
+                                    <input id="phonenum" type="tel" class="form-control form-control-lg" placeholder="+1 123 456 789">
+                                </div>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="address">Address<sup>*</sup></label>
+                                <input id="address" type="text" class="form-control form-control-lg" placeholder="Street address">
+                            </div>
+                            <div class="row">
+                                <div class="form-group mb-3 col-lg-6">
+                                    <label for="country">Country<sup>*</sup></label>
+                                    <select id="country" class="custom-select">
+                                        <option selected>USA</option>
+                                        <option value="Pakistan">PK</option>
+                                        <option value="United-Kingdom">UK</option>
+                                    </select>
+                                </div>
+                                <div class="form-group mb-3 col-lg-6">
+                                    <label for="state">State<sup>*</sup></label>
+                                    <select id="state" class="custom-select">
+                                        <option selected>New York</option>
+                                        <option value="New-York">New York</option>
+                                        <option value="Washington-DC">Washington DC</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="zip">Zip Code<sup>*</sup></label>
+                                <select id="zip" class="custom-select">
+                                    <option selected>46654</option>
+                                    <option value="46654">46654</option>
+                                    <option value="46656">46656</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="wrap-row">
+                            <h2>Change Password</h2>
+                            <div class="row">
+                                <div class="form-group mb-3 col-lg-6">
+                                    <label for="old-pwd">Old Password<sup>*</sup></label>
+                                    <input type="password" class="form-control form-control-lg" id="old-pwd" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group mb-3 col-lg-6">
+                                    <label for="new-pwd">Enter New Password<sup>*</sup></label>
+                                    <input type="password" class="form-control form-control-lg" id="new-pwd" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;">
+                                </div>
+                                <div class="form-group mb-3 col-lg-6">
+                                    <label for="rp-pwd">Repeat New Password<sup>*</sup></label>
+                                    <input type="password" class="form-control form-control-lg" id="rp-pwd" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;">
+                                </div>
+                            </div>
+                        </div>
+                        <input type="submit" role="button" class="btn btn-primary btn-save" value="Save">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer of the page Starts...  -->
+    <footer class="w-100 pt-xl-5 pb-xl-5 pt-3 pb-3">
+        <div class="container container-custom">
+          <div class="row">
+            <div class="col-xl-3 col-12 text-center text-xl-left">
+              <div class="logo-footer w-100">
+                <a href='index.html'><img src="img/logo-footer.png" alt="Organic Food"></a>
+              </div>
+            </div>
+            <div class="col-xl-9 col-12 d-xl-flex justify-content-end nav-links">
+              <ul class="list-inline col-xl-7 col-12 px-sm-3 px-0 mx-xl-0 mx-auto d-flex justify-content-between" role="navigation">
+                <li class="list-inline-item"><a class="text-white" href="#">How it works</a></li>
+                <li class="list-inline-item"><a class="text-white" href="#">About</a></li>
+                <li class="list-inline-item"><a class="text-white" href="#">Help</a></li>
+                <li class="list-inline-item"><a class="text-white" href="#">FAQ</a></li>
+                <li class="list-inline-item"><a class="text-white" href="#">Contact</a></li>
+              </ul>
+              <ul class="social-networks list-inline col-xl-2 col-4 d-flex justify-content-between mx-xl-3 mx-auto my-xl-0 mt-2">
+                <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+              </ul> 
+            </div>
+          </div>
+        </div>
+    </footer>
+    
+    <!-- Sign In Modal Starts.. -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="modal-header border-0">
+            <h5 class="modal-title text-uppercase txt-title" id="loginModalTitle">Log in</h5>
+            <button type="button" class="close text-white btn-close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true text-danger"><i class="fas fa-times"></i></span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <form class="form form-details" id="form-signIn" action="#">
+            <div class="form-group mb-3">
+                <label for="e-address">E-mail address</label>
+                <input id="e-address" type="text" class="form-control" placeholder="myemail@gmail.com">
+            </div>
+            <div class="form-group mb-3">
+                <label for="pwd">Password</label>
+                <input id="pwd" type="password" class="form-control" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;">
+            </div>
+            <div class="form-group mb-4 txt-forget">
+                <p>Forget your password? <a href="#">Reset Now</a></p>
+            </div>
+            <button type="submit" class="btn btn-block mb-4 btn-primary">Sign In</button>
+            <div class="form-group mb-5">
+                <p><span>Log in with</span> <a href="#" class="d-inline-block mr-3 ico-fb rounded-circle"><i class="fab fa-facebook-f"></i></a><a href="#" class="d-inline-block rounded-circle ico-twitter"><i class="fab fa-twitter"></i></a></p>
+            </div>
+            <a href="#" class="btn btn-signUpAcc" role="button">Create Account</a>
+            </form>
+        </div>
+        <div class="modal-footer border-0">
+            <p>OrganicFood uses Google ReCaptcha and users are subject to Google’s <a href="#">privacy policy</a> &amp; <a href="#">terms</a>.</p>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Sign Up Modal Starts.. -->
+    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signupModalTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="modal-header border-0">
+            <h5 class="modal-title text-uppercase txt-title" id="signupModalTitle">Sign Up</h5>
+            <button type="button" class="close text-white btn-close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true text-danger"><i class="fas fa-times"></i></span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <form class="form-horizontal form-details" action="#">
+            <h2>Delivery For:</h2>
+            <div class="form-row ml-0 mr-0 pl-3 pr-3">
+                <div class="custom-control custom-checkbox col-sm-3 col-12">
+                    <input type="checkbox" name="chb" class="custom-control-input checkBox" id="home-check">
+                    <label class="custom-control-label" for="home-check">Home</label>
+                </div>
+                <div class="custom-control custom-checkbox col-sm-9 col-12">
+                <input type="checkbox" name="chb" class="custom-control-input checkBox" id="business">
+                    <label class="custom-control-label" for="business">Business or School address</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-md-6">
+                    <label for="first-name">First Name</label>
+                    <input type="text" class="form-control" id="first-name" placeholder="Elijah">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" class="form-control" id="last-name" placeholder="Crawford">
+                </div>
+                </div>
+            <div class="form-group mb-3">
+                <label for="email-add">E-mail address</label>
+                <input id="email-add" type="email" class="form-control" placeholder="myemail@email.com">
+            </div>
+            <div class="form-group mb-3">
+                <label for="cell-num">Phone</label>
+                <input id="cell-num" type="tel" class="form-control" placeholder="+1 123 456 789">
+            </div>
+            <div class="form-group mb-3">
+                <label for="pswd">Password</label>
+                <input id="pswd" type="password" class="form-control" placeholder="&#9679&#9679&#9679&#9679&#9679&#9679&#9679&#9679">
+            </div>
+            <div class="form-group mb-3">
+                <label for="r-pswd">Repeat Password</label>
+                <input id="r-pswd" type="password" class="form-control" placeholder="&#9679&#9679&#9679&#9679&#9679&#9679&#9679&#9679&#9679&#9679">
+            </div>
+            <button type="submit" class="btn btn-block mb-4 btn-primary">Sign Up</button>
+            <div class="form-group mb-5">
+                <p><span class="text-uppercase mr-3">Sign Up with</span> <a href="#" class="d-inline-block mr-3 ico-fb rounded-circle"><i class="fab fa-facebook-f"></i></a><a href="#" class="d-inline-block rounded-circle ico-twitter"><i class="fab fa-twitter"></i></a></p>
+            </div>
+            <a href="#" class="btn btn-signUpAcc" role="button">Already have an account? Sign In</a>
+            </form>
+        </div>
+        <div class="modal-footer border-0">
+            <p>OrganicFood uses Google ReCaptcha and users are subject to Google’s <a href="#">privacy policy</a> &amp; <a href="#">terms</a>.</p>
+        </div>
+        </div>
+    </div>
+    </div>    
+    
+        
+        <!-- content-wrapper ends -->
+        
+    <!-- jQuery -->
+    <script src="js/jquery-slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script>
+      $('.dropdown-menu a').click(function(){
+          $('a.dropdown-toggle').text($(this).text());
+          $('a.dropdown-toggle').val($(this).text()).addClass('add')
+          .append('<i class="fas fa-chevron-down"></i>');
+      });
+
+      //dropdown button changing value
+      $('.dropdown-menu button').click(function(){
+          $('button.dropdown-toggle').text($(this).text());
+          $('button.dropdown-toggle').val($(this).text()).prepend("<img src='img/ico-cal.png' alt='Calendar Icon'>");
+      });
+
+      //slick slider initiator
+      $(document).ready(function(){
+        $('.product-gallery').slick({
+            dots: true,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+                },
+                {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+                },
+                {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+            });
+
+            const menuIconEl = $('.menu-icon');
+            const sidenavEl = $('.sidenav');
+            const sidenavCloseEl = $('.sidenav__close-icon');
+
+            // Add and remove provided class names
+            function toggleClassName(el, className) {
+            if (el.hasClass(className)) {
+                el.removeClass(className);
+            } else {
+                el.addClass(className);
+            }
+            }
+
+            // Open the side nav on click
+            menuIconEl.on('click', function() {
+            toggleClassName(sidenavEl, 'active');
+            });
+
+            // Close the side nav on click
+            sidenavCloseEl.on('click', function() {
+            toggleClassName(sidenavEl, 'active');
+            });
+
+
+            $(".checkBox").change(function() {
+                $(".checkBox").prop('checked', false);
+                $(this).prop('checked', true);
+            });
+        });
+  </script>
+</body>
+</html>

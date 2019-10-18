@@ -1,0 +1,615 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>OrganicFood | Shop</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="all">
+    <link rel="stylesheet" href="css/slick.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/5.0.1/css/fileinput.min.css" media="all" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" media="all">
+    <link rel="stylesheet" href="css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Header of the page starts.. -->
+    <header class="w-100 fixed-top">
+        <div class="w-100 bg-light-g">
+            <div class="container container-header">
+                <ul class="top-nav">
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle drop-lang" aria-haspopup="true" aria-expanded="false">En <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#">En</a>
+                            <a class="dropdown-item" href="#">Fr</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="w-100">
+            <div class="container container-header">
+                <div class="wrap-form">
+                    <div class="logo-wrapper">
+                        <div><a href="index.html"><img src="img/logo.png"></a></div>
+                    </div>
+                    <div class="row m-0">
+                    <form class="form-horizontal form-zipcode col-md-6 col-12" action="#">
+                        <div class="form-group m-0">
+                        <input type="text" class="form-control txt-box" placeholder="Enter Zip Code">
+                        </div>
+                    </form>
+                    <div class="wrap-btns">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#loginModal">Sign In</button>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#signUpModal">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-100 bg-primary nav-wrapper">
+            <div class="container container-header">
+                <div class="row m-0">
+                    <nav class="navbar navbar-expand-lg navbar-light pl-0">
+                        <button type="button" data-toggle="collapse" class="navbar-toggler" aria-expanded="false" data-target="#navigation"><span class="navbar-toggler-icon"><i class="fas fa-bars text-white"></i></span></button>
+                        <div class="collapse navbar-collapse" id="navigation">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                            <a href="#" class="nav-link">Meals</a>
+                            </li>
+                            <li class="nav-item">
+                            <a href="#" class="nav-link">Fruits</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Vegetables</a>
+                            </li>
+                            <li class="nav-item">
+                            <a href="#" class="nav-link">Meat & Poultry</a>
+                            </li>
+                            <li class="nav-item">
+                            <a href="#" class="nav-link">Dairy</a>
+                            </li>
+                            <li class="nav-item">
+                            <a href="#" class="nav-link">Bakery & Pastry</a>
+                            </li>
+                            <li class="nav-item">
+                            <a href="#" class="nav-link">Party Platters</a>
+                            </li>
+                        </ul>
+                        </div>
+                    </nav>
+                    <div class="sec-bill">
+                        <a href="#" class="d-inline-block"><img src="img/ico-case.png" alt="icon-cart"> 2 - $230 USD</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main role="content" class="container prod-container container-custom">
+        <div class="row m-0">
+            <h2>Add New Product</h2>
+        </div>
+      <div class="row">
+        <aside class="sidebar side-nav col-md-3">
+            <nav id="list--example">
+                <div id="list-example" class="list-group components">
+                    <div id="list-example" class="list-group components nav-tabs">
+                        <a class="list-group-item list-group-item-action nav-item active" href="#newproduct" data-toggle="tab" aria-expanded="false">Product Detail</a>
+                        <a class="list-group-item list-group-item-action nav-item" href="#location" data-toggle="tab" aria-expanded="false">Location</a>
+                        <a class="list-group-item list-group-item-action nav-item" href="#productgallery" data-toggle="tab" aria-expanded="false">Product Gallery</a>
+                        <a class="list-group-item list-group-item-action nav-item" href="#review" data-toggle="tab" aria-expanded="false">Review</a>
+                    </div>
+                </div>
+            </nav>
+        </aside>
+        <div class="col-lg-9 col-md-8 tab-content">
+            <!-- Farm Fresh Deals Starts.. -->
+            <div class="tab-pane active" id="newproduct">
+                <section class="container container-custom sec-deals pb-md-5 pb-3 loc-form">
+                <h1 class="mb-4" id="list-item-1">Product Detail</h1>
+                <div class="row m-0">
+                    <form class="form w-100 pt-3 form-contact cr-prod pl-1 pr-1 pb-5">
+                        <div class="form-group mb-3">
+                            <label for="productName">Product Name<sup>*</sup></label>
+                            <input type="text" class="form-control form-control-lg" id="productName" placeholder="Avocados from Mexico Hass Avocados, Ready-to-Eat">
+                        </div>
+                        <div class="form-group mb-3 col-md-8 col-12 p-0">
+                            <label for="category">Category<sup>*</sup></label>
+                            <select class="custom-select custom-select-lg">
+                                <option selected>Fruits</option>
+                                <option value="vegetables">Vegetables</option>
+                                <option value="herbs">Herbs</option>
+                                <option value="vegetables">Vegetables</option>
+                                <option value="herbs">Herbs</option>
+                            </select>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="inputDesc">Description</label>
+                            <textarea class="form-control form-control-lg" id="inputDesc" rows="3" placeholder="Enter product Description"></textarea>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-3 col-12">
+                                <div class="w-100 mb-3">
+                                    <label for="inputWeight">Weight<sup>*</sup></label>
+                                    <input type="text" class="form-control form-control-lg" id="inputWeight" placeholder="12">
+                                </div>
+                                <div class="w-100 mb-3">
+                                    <label for="inputPrice">Price<sup>*</sup></label>
+                                    <input type="text" class="form-control form-control-lg" id="inputPrice" placeholder="29.99">
+                                </div>
+                            </div>
+                            <div class="form-group col-md-3 col-12 mb-3">
+                                <label for="sel-cat">Metric/Unit<sup>*</sup></label>
+                                <select class="custom-select custom-select-lg" id="sel-cat">
+                                    <option selected>OZ</option>
+                                    <option value="count">Count</option>
+                                    <option value="weight">Weight</option>
+                                    <option value="time">Time</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                </section>
+            </div>
+            <div class="tab-pane" id="location">
+                <section class="container sec-deals static-container pb-md-5 pb-3 loc-form loc-form">
+                    <h1 class="mb-4" id="list-item-1">Location</h1>
+                    <div class="row m-0">
+                        <form class="form w-100 pt-3 form-contact cr-prod pl-1 pr-1 pb-5">
+                            <div class="form-row">
+                                <div class="form-group col-md-3 col-12">
+                                    <label for="cntryName">Country<sup>*</sup></label>
+                                    <select class="custom-select">
+                                        <option selected>USA</option>
+                                        <option value="pk">PK</option>
+                                        <option value="uk">UK</option>
+                                        <option value="uae">UAE</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-3 col-12">
+                                    <label for="stateName">State<sup>*</sup></label>
+                                    <select class="custom-select">
+                                        <option selected>New York</option>
+                                        <option value="wdc">Washington DC</option>
+                                        <option value="cl">Colombia</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6 col-12">
+                                    <label for="cntryName">Zip Code<sup>*</sup></label>
+                                    <select class="custom-select">
+                                        <option selected>46654</option>
+                                        <option value="46655">46655</option>
+                                        <option value="46656">46656</option>
+                                        <option value="46657">46657</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                        </form>
+                    </div>
+                </section>
+            </div>
+            <div class="tab-pane" id="productgallery">
+                <section class="container container-custom sec-deals static-container pb-md-5 pb-3 loc-form">
+                    <h1 class="mb-4" id="list-item-1">Product Gallery</h1>
+                    <div class="row m-0">
+                        <form class="col-lg-6 preview-block">
+                            <label class="labelimg1" for="imgUp"><span><img src="img/ico-cloud.png" alt="Download Icon"> Upload Photo</span></label>
+                            <input id="imgUp" type='file' class="img" set-to="div1" />
+                            <div>
+                                <a onclick="removeImg(this,'1')" href="javascript:void(0)" class="close-icon close1"><img src="img/ico-close.png" alt="Close Icon"></a>
+                                <img class="image" id="div1" src="#" alt="image 1" /> 
+                            </div>
+                        </form>
+                        <div class="col-lg-6">
+                            <ul class="gallery-list">
+                                <li>
+                                    <label class="labelimg2"  for="imgUp1">
+                                        <span><img src="img/ico-cloud.png" alt="Download Icon"> Upload Photo</span>
+                                    </label>
+                                    <input class="img" id="imgUp1" type='file' set-to="div2" />
+                                    <div>
+                                        <a onclick="removeImg(this,'2')" href="javascript:void(0)" class="close-icon close2"><img src="img/ico-close.png" alt="Close Icon"></a>
+                                        <img class="image" id="div2" src="#" alt="image 1" /> 
+                                    </div>
+                                </li>
+                                <li>
+                                    <label class="labelimg3"  for="imgUp2">
+                                        <span><img src="img/ico-cloud.png" alt="Download Icon"> Upload Photo</span>
+                                    </label><input class="img" type='file' id="imgUp2" set-to="div3" />
+                                    <div>
+                                        <a onclick="removeImg(this,'3')" href="javascript:void(0)" class="close-icon close3"><img src="img/ico-close.png" alt="Close Icon"></a>
+                                        <img class="image" id="div3" src="#" alt="image 1" /> 
+                                    </div>
+                                </li>
+                                <li>
+                                    <label class="labelimg4"  for="imgUp3">
+                                        <span><img src="img/ico-cloud.png" alt="Download Icon"> Upload Photo</span>
+                                    </label><input class="img" type='file' id="imgUp3" set-to="div4" />
+                                    <div>
+                                        <a onclick="removeImg(this,'4')" href="javascript:void(0)" class="close-icon close4"><img src="img/ico-close.png" alt="Close Icon"></a>
+                                        <img class="image" id="div4" src="#" alt="image 1" /> 
+                                    </div>
+                                </li>
+                                <li>
+                                    <label class="labelimg5" for="imgUp4">
+                                        <span><img src="img/ico-cloud.png" alt="Download Icon"> Upload Photo</span>
+                                    </label><input class="img" type='file' id="imgUp4" set-to="div5" />
+                                    <div>
+                                        <a onclick="removeImg(this,'5')" href="javascript:void(0)" class="close-icon close5"><img src="img/ico-close.png" alt="Close Icon"></a>
+                                        <img class="image" id="div5" src="#" alt="image 1" /> 
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="tab-pane" id="review">
+                <section class="container container-custom sec-deals pb-md-4 pb-3 loc-form">
+                    <h1 class="mb-4">Product Preview</h1>
+                    <div class="row m-0">
+                        <div class="preview col-12 row ml-0 mr-0 mb-5">
+                            <h3>Product Gallery</h3>
+                            <ul class="preview-thumbnail thumb-tabs nav nav-tabs mb-5">
+                                <li class="nav-item active"><a data-target="#pic-1" data-toggle="tab"><img src="img/img-1.png" /></a></li>
+                                <li class="nav-item"><a data-target="#pic-2" data-toggle="tab"><img src="img/img-2.png" alt="Tomatoes" /></a></li>
+                                <li class="nav-item"><a data-target="#pic-3" data-toggle="tab"><img src="img/img-3.png" alt="thumbnail" /></a></li>
+                                <li class="nav-item"><a data-target="#pic-4" data-toggle="tab"><img src="img/img-4.png" alt="Thumbnail" /></a></li>
+                            </ul>
+                            <div class="preview-pic tab-content">
+                                <div class="tab-pane active" id="pic-1">
+                                    <dl class="row m-0">
+                                        <dt>Product Name</dt>
+                                        <dd>Avocados from Mexico Hass Avocados, Ready-to-Eat</dd>
+                                        <dt>Category</dt>
+                                        <dd>Fruit</dd>
+                                        <dt>Location</dt>
+                                        <dd>Free Shipping to Unated Stades</dd>
+                                        <dt>Weight</dt>
+                                        <dd>approx. 12oz</dd>
+                                        <dt>Weight</dt>
+                                        <dd>Full of tangy-sweet juice and bursting with color, these little jewels straight from Hepworth Farms' local fields cry out for use in salads and quick pan sauces, stuffing, or skewering for grilled kabobs. When other vegetables are past their peak, you can always find cherry tomatoes full of flavor and color. <br /><a href="#">see more</a></dd>
+                                    </dl>
+                                </div>
+                                <div class="tab-pane" id="pic-2">
+                                    <dl class="row m-0">
+                                        <dt>Product Name</dt>
+                                        <dd>Avocados from Mexico Hass Avocados, Ready-to-Eat</dd>
+                                        <dt>Category</dt>
+                                        <dd>Fruit</dd>
+                                        <dt>Location</dt>
+                                        <dd>Free Shipping to Unated Stades</dd>
+                                        <dt>Weight</dt>
+                                        <dd>approx. 12oz</dd>
+                                        <dt>Weight</dt>
+                                        <dd>Full of tangy-sweet juice and bursting with color, these little jewels straight from Hepworth Farms' local fields cry out for use in salads and quick pan sauces, stuffing, or skewering for grilled kabobs. When other vegetables are past their peak, you can always find cherry tomatoes full of flavor and color. <br /><a href="#">see more</a></dd>
+                                    </dl>
+                                </div>
+                                <div class="tab-pane" id="pic-3">
+                                    <dl class="row m-0">
+                                        <dt>Product Name</dt>
+                                        <dd>Avocados from Mexico Hass Avocados, Ready-to-Eat</dd>
+                                        <dt>Category</dt>
+                                        <dd>Fruit</dd>
+                                        <dt>Location</dt>
+                                        <dd>Free Shipping to Unated Stades</dd>
+                                        <dt>Weight</dt>
+                                        <dd>approx. 12oz</dd>
+                                        <dt>Weight</dt>
+                                        <dd>Full of tangy-sweet juice and bursting with color, these little jewels straight from Hepworth Farms' local fields cry out for use in salads and quick pan sauces, stuffing, or skewering for grilled kabobs. When other vegetables are past their peak, you can always find cherry tomatoes full of flavor and color. <br /><a href="#">see more</a></dd>
+                                    </dl>
+                                </div>
+                                <div class="tab-pane" id="pic-4">
+                                    <dl class="row m-0">
+                                        <dt>Product Name</dt>
+                                        <dd>Avocados from Mexico Hass Avocados, Ready-to-Eat</dd>
+                                        <dt>Category</dt>
+                                        <dd>Fruit</dd>
+                                        <dt>Location</dt>
+                                        <dd>Free Shipping to Unated Stades</dd>
+                                        <dt>Weight</dt>
+                                        <dd>approx. 12oz</dd>
+                                        <dt>Weight</dt>
+                                        <dd>Full of tangy-sweet juice and bursting with color, these little jewels straight from Hepworth Farms' local fields cry out for use in salads and quick pan sauces, stuffing, or skewering for grilled kabobs. When other vegetables are past their peak, you can always find cherry tomatoes full of flavor and color. <br /><a href="#">see more</a></dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-holder pt-3 pb-3">
+                            <button type="button" class="btn btn-draft">Save Draft</button>
+                            <button type="submit" class="btn btn-primary btn-send">Publish Product</button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer of the page Starts...  -->
+    <footer class="w-100 pt-xl-5 pb-xl-5 pt-3 pb-3">
+        <div class="container container-custom">
+            <div class="row">
+                <div class="col-xl-3 col-12 text-center text-xl-left">
+                    <div class="logo-footer w-100">
+                    <a href='index.html'><img src="img/logo-footer.png" alt="Organic Food"></a>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-12 d-xl-flex justify-content-end nav-links">
+                    <ul class="list-inline col-xl-7 col-12 px-sm-3 px-0 mx-xl-0 mx-auto d-flex justify-content-between" role="navigation">
+                    <li class="list-inline-item"><a class="text-white" href="#">How it works</a></li>
+                    <li class="list-inline-item"><a class="text-white" href="#">About</a></li>
+                    <li class="list-inline-item"><a class="text-white" href="#">Help</a></li>
+                    <li class="list-inline-item"><a class="text-white" href="#">FAQ</a></li>
+                    <li class="list-inline-item"><a class="text-white" href="#">Contact</a></li>
+                    </ul>
+                    <ul class="social-networks list-inline col-xl-2 col-4 d-flex justify-content-between mx-xl-3 mx-auto my-xl-0 mt-2">
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul> 
+                </div>
+            </div>
+        </div>
+    </footer>
+          
+    <!-- Sign In Modal Starts.. -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="modal-header border-0">
+            <h5 class="modal-title text-uppercase txt-title" id="loginModalTitle">Log in</h5>
+            <button type="button" class="close text-white btn-close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true text-danger"><i class="fas fa-times"></i></span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <form class="form form-details" id="form-signIn" action="#">
+            <div class="form-group mb-3">
+                <label for="e-address">E-mail address</label>
+                <input class="img" id="e-address" type="text" class="form-control" placeholder="myemail@gmail.com">
+            </div>
+            <div class="form-group mb-3">
+                <label for="pwd">Password</label>
+                <input class="img" id="pwd" type="password" class="form-control" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;">
+            </div>
+            <div class="form-group mb-4 txt-forget">
+                <p>Forget your password? <a href="#">Reset Now</a></p>
+            </div>
+            <button type="submit" class="btn btn-block mb-4 btn-primary">Sign In</button>
+            <div class="form-group mb-5">
+                <p><span>Log in with</span> <a href="#" class="d-inline-block mr-3 ico-fb rounded-circle"><i class="fab fa-facebook-f"></i></a><a href="#" class="d-inline-block rounded-circle ico-twitter"><i class="fab fa-twitter"></i></a></p>
+            </div>
+            <a href="#" class="btn btn-signUpAcc" role="button">Create Account</a>
+            </form>
+        </div>
+        <div class="modal-footer border-0">
+            <p>OrganicFood uses Google ReCaptcha and users are subject to Google’s <a href="#">privacy policy</a> &amp; <a href="#">terms</a>.</p>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Sign Up Modal Starts.. -->
+    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signupModalTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="modal-header border-0">
+            <h5 class="modal-title text-uppercase txt-title" id="signupModalTitle">Sign Up</h5>
+            <button type="button" class="close text-white btn-close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true text-danger"><i class="fas fa-times"></i></span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <form class="form-horizontal form-details" action="#">
+            <h2>Delivery For:</h2>
+            <div class="form-row ml-0 mr-0 pl-3 pr-3">
+                <div class="custom-control custom-checkbox col-sm-3 col-12">
+                    <input class="img" type="checkbox" name="chb" class="custom-control-input checkBox" id="home-check">
+                    <label class="custom-control-label" for="home-check">Home</label>
+                </div>
+                <div class="custom-control custom-checkbox col-sm-9 col-12">
+                <input class="img" type="checkbox" name="chb" class="custom-control-input checkBox" id="business">
+                    <label class="custom-control-label" for="business">Business or School address</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-md-6">
+                    <label for="first-name">First Name</label>
+                    <input class="img" type="text" class="form-control" id="first-name" placeholder="Elijah">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="last-name">Last Name</label>
+                    <input class="img" type="text" class="form-control" id="last-name" placeholder="Crawford">
+                </div>
+                </div>
+            <div class="form-group mb-3">
+                <label for="email-add">E-mail address</label>
+                <input class="img" id="email-add" type="email" class="form-control" placeholder="myemail@email.com">
+            </div>
+            <div class="form-group mb-3">
+                <label for="cell-num">Phone</label>
+                <input class="img" id="cell-num" type="tel" class="form-control" placeholder="+1 123 456 789">
+            </div>
+            <div class="form-group mb-3">
+                <label for="pswd">Password</label>
+                <input class="img" id="pswd" type="password" class="form-control" placeholder="&#9679&#9679&#9679&#9679&#9679&#9679&#9679&#9679">
+            </div>
+            <div class="form-group mb-3">
+                <label for="r-pswd">Repeat Password</label>
+                <input class="img" id="r-pswd" type="password" class="form-control" placeholder="&#9679&#9679&#9679&#9679&#9679&#9679&#9679&#9679&#9679&#9679">
+            </div>
+            <button type="submit" class="btn btn-block mb-4 btn-primary">Sign Up</button>
+            <div class="form-group mb-5">
+                <p><span class="text-uppercase mr-3">Sign Up with</span> <a href="#" class="d-inline-block mr-3 ico-fb rounded-circle"><i class="fab fa-facebook-f"></i></a><a href="#" class="d-inline-block rounded-circle ico-twitter"><i class="fab fa-twitter"></i></a></p>
+            </div>
+            <a href="#" class="btn btn-signUpAcc" role="button">Already have an account? Sign In</a>
+            </form>
+        </div>
+        <div class="modal-footer border-0">
+            <p>OrganicFood uses Google ReCaptcha and users are subject to Google’s <a href="#">privacy policy</a> &amp; <a href="#">terms</a>.</p>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery-slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script>
+      $('.dropdown-menu a').click(function(){
+          $('a.dropdown-toggle').text($(this).text());
+          $('a.dropdown-toggle').val($(this).text()).addClass('add')
+          .append('<i class="fas fa-chevron-down"></i>');
+      });
+
+      //slick slider initiator
+      $(document).ready(function(){
+        $('.product-gallery').slick({
+          dots: true,
+          infinite: false,
+          speed: 300,
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            
+          ]
+        });
+        //Checkboxes toggles..
+         $(".checkBox").change(function() {
+            $(".checkBox").prop('checked', false);
+            $(this).prop('checked', true);
+        });
+       
+        //Function for feature image
+        function newreadURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                var div_id  = $(input).attr('set-to');
+                reader.onload = function (e) {
+                    $('#'+div_id).attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        $("#imgUp").on('change', function(){
+            $(this).parent().find('label').css('visibility', 'hidden');
+            $(this).parent().find('.close-icon').css('display' , 'inline-block');
+            newreadURL(this);
+
+            $('.close-icon').on('click', function(){
+                $(this).parents().find('label').css('visibility', 'visible');
+                $(this).closest('div').find('img').remove();
+                $('.close-icon').hide();
+            });
+
+        });
+
+        //Function for file upload for gallery list
+        function newURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                var div_id  = $(input).attr('set-to');
+                reader.onload = function (e) {
+                    $('#'+div_id).attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        $('#imgUp1').on('change', function(){
+           $(this).parent().find('label').css('visibility', 'hidden');
+           $(this).parent().find('.close-icon').css('display' , 'inline-block');
+            newURL(this);
+
+            $('.close-icon').on('click', function(){
+                $(this).parents().find('label').css('visibility', 'visible');
+                $(this).closest('div').find('img').remove();
+                $('.close-icon').hide();
+            });
+
+        });
+        $(document).on('change', '#imgUp2', function(){
+            $(this).parent().find('label').css('visibility', 'hidden');
+            $(this).parent().find('.close-icon').css('display' , 'inline-block');
+            newURL(this);
+//            $('.close-icon').on('click', function(){
+//                $(this).parents().find('label').css('visibility', 'visible');
+//                $(this).parent('.test img').remove();
+//                $('.close-icon').hide();
+//            });
+        });
+        $(document).on('change', '#imgUp3', function(){
+            $(this).parent().find('label').css('visibility', 'hidden');
+            $(this).parent().find('.close-icon').css('display' , 'inline-block');
+            newURL(this);
+     
+//            $('.close-icon').on('click', function(){
+//                $(this).parents().find('label').css('visibility', 'visible');
+//                $(this).parent('.test img').remove();
+//                $('.close-icon').hide();
+//            });
+        });
+      
+        $(document).on('change', '#imgUp4', function(){
+            $(this).parent().find('label').css('visibility', 'hidden');
+            $(this).parent().find('.close-icon').css('display' , 'inline-block');
+            newURL(this);
+//            $('.close-icon').on('click', function(){
+//                $(this).parents().find('label').css('visibility', 'visible');
+//                $(this).parent('.test img').remove();
+//                $('.close-icon').hide();
+//            });   
+        });
+    
+        
+    }); 
+    
+      
+        function removeImg(ele,id){
+                $('.labelimg'+id).css('visibility', 'visible');
+                $(ele).next().remove();
+                $('.close'+id).hide();
+//                $('labelimg4').css('visibility', 'visible');
+        }
+        
+    </script>
+</body>
+</html>

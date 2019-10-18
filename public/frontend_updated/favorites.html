@@ -1,0 +1,703 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>OrganicFood | Whishlist</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="all">
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+    <link rel="stylesheet" href="css/style.css" media="all">
+    <link rel="stylesheet" href="css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header of the page starts.. -->
+    <header class="w-100 fixed-top">
+        <div class="w-100 bg-light-g">
+            <div class="container container-header">
+                <ul class="top-nav">
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle drop-lang" aria-haspopup="true"
+                            aria-expanded="false">En <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#">En</a>
+                            <a class="dropdown-item" href="#">Fr</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="w-100">
+            <div class="container container-header">
+                <div class="wrap-form">
+                    <div class="logo-wrapper">
+                        <div><a href="index.html"><img src="img/logo.png"></a></div>
+                    </div>
+                    <div class="row m-0">
+                        <form class="form-horizontal form-zipcode col-md-6 col-12" action="#">
+                            <div class="form-group m-0">
+                                <input type="text" class="form-control txt-box" placeholder="Enter Zip Code">
+                            </div>
+                        </form>
+                        <div class="wrap-btns">
+                            <button type="button" class="btn" data-toggle="modal" data-target="#loginModal">Sign
+                                In</button>
+                            <button type="button" class="btn" data-toggle="modal" data-target="#signUpModal">Sign
+                                Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-100 bg-primary nav-wrapper">
+            <div class="container container-header">
+                <div class="row m-0">
+                    <nav class="navbar navbar-expand-lg navbar-light pl-0">
+                        <button type="button" data-toggle="collapse" class="navbar-toggler" aria-expanded="false"
+                            data-target="#navigation"><span class="navbar-toggler-icon"><i
+                                    class="fas fa-bars text-white"></i></span></button>
+                        <div class="collapse navbar-collapse" id="navigation">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a href="#" class="nav-link">Meals</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Fruits</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Vegetables</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Meat & Poultry</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Dairy</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Bakery & Pastry</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Party Platters</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="sec-bill">
+                        <a href="#" class="d-inline-block"><img src="img/ico-case.png" alt="icon-cart"> 2 - $230 USD</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="banner-cart pt-5 pb-5">
+        <div class="container">
+            <h2>Wishlist Products</h2>
+            <p>Banjo tote bag bicycle rights, High Life sartorial cray craft beer whatever street art fap.</p>
+        </div>
+    </section>
+    <main role="content" class="container container-custom pd-cont">
+        <div class="row">
+            <ul class="list-unstyled indexProd row m-0">
+                <li class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product-grid">
+                        <div class="product-image w-100">
+                            <a href="#" class="mb-3">
+                                <img class="pic-1" src="img/img-avacados.png" alt="Image Avacados">
+                            </a>
+                            <span class="d-block img-capt p-2"><img class="float-left" src="img/img-hassayampa.png"
+                                    alt="Image Hassayampa"> Hassayampa Vineyard &amp; Farm</span>
+                        </div>
+                        <div class="product-content clearfix">
+                            <div class="price">
+                                <p>Avocados from Mexico Hass Avocados, Ready-to-Eat</p>
+                                <p>$4.99/each</p>
+                            </div>
+                            <ul class="rating">
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star disable"></li>
+                                <li class="fa fa-star disable"></li>
+                            </ul>
+                            <p class="text-center stats-rating">4.0 <span>(25)</span></p>
+                            <button type="button" class="btn add-to-cart">Add To Cart</button>
+
+                        </div>
+                    </div>
+                </li>
+                <li class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product-grid">
+                        <div class="product-image w-100">
+                            <a href="#" class="mb-3">
+                                <img class="pic-1" src="img/img-medley.png" alt="Image Medley">
+                            </a>
+                            <span class="d-block img-capt p-2"><img class="float-left" src="img/img-hassayampa.png"
+                                    alt="Image Hassayampa"> Hassayampa Vineyard &amp; Farm</span>
+                        </div>
+                        <div class="product-content clearfix">
+                            <div class="price">
+                                <p>Gotham Greens Gourmet Lettuce Medley</p>
+                                <p>$3.99/each</p>
+                            </div>
+                            <ul class="rating">
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star disable"></li>
+                                <li class="fa fa-star disable"></li>
+                                <li class="fa fa-star disable"></li>
+                            </ul>
+                            <p class="text-center stats-rating">4.0 <span>(25)</span></p>
+                            <button type="button" class="btn add-to-cart">Add To Cart</button>
+                            <button type="button" class="btn btn-heart"><img src="img/img-heart.png"
+                                    alt="Icon Heart"></button>
+                            <button type="button" class="btn btn-dislike"><img src="img/ico-dislike.png"
+                                    alt="Icon Dislike"></button>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product-grid">
+                        <div class="product-image w-100">
+                            <a href="#" class="mb-3">
+                                <img class="pic-1" src="img/img-strawberries.png" alt="Image Strawberries">
+                            </a>
+                            <span class="d-block img-capt p-2"><img class="float-left" src="img/img-hassayampa.png"
+                                    alt="Image Hassayampa"> Hassayampa Vineyard &amp; Farm</span>
+                        </div>
+                        <div class="product-content clearfix">
+                            <div class="price">
+                                <p>Driscoll's Strawberries</p>
+                                <p>$4.99/each</p>
+                            </div>
+                            <ul class="rating">
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star disable"></li>
+                            </ul>
+                            <p class="text-center stats-rating">4.0 <span>(25)</span></p>
+                            <button type="button" class="btn add-to-cart">Add To Cart</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product-grid">
+                        <div class="product-image w-100">
+                            <a href="#" class="mb-3">
+                                <img class="pic-1" src="img/img-blueberries.png" alt="Image Blueberries">
+                            </a>
+                            <span class="d-block img-capt p-2"><img class="float-left" src="img/img-hassayampa.png"
+                                    alt="Image Hassayampa"> Hassayampa Vineyard &amp; Farm</span>
+                        </div>
+                        <div class="product-content clearfix">
+                            <div class="price">
+                                <p>Family Tree Farms Jumbo Ultra-Premium Blueberries</p>
+                                <p>$7.99/each</p>
+                            </div>
+                            <ul class="rating">
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star disable"></li>
+                            </ul>
+                            <p class="text-center stats-rating">4.0 <span>(25)</span></p>
+                            <button type="button" class="btn add-to-cart">Add To Cart</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product-grid">
+                        <div class="product-image w-100">
+                            <a href="#" class="mb-3">
+                                <img class="pic-1" src="img/img-cherries.png" alt="Image Cherries">
+                            </a>
+                            <span class="d-block img-capt p-2"><img class="float-left" src="img/img-hassayampa.png"
+                                    alt="Image Hassayampa"> Hassayampa Vineyard &amp; Farm</span>
+                        </div>
+                        <div class="product-content clearfix">
+                            <div class="price">
+                                <p>Red Cherries</p>
+                                <p>$3.99/each</p>
+                            </div>
+                            <div class="footer-product">
+                                <ul class="rating">
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                </ul>
+                                <p class="text-center stats-rating">4.0 <span>(25)</span></p>
+                                <button type="button" class="btn add-to-cart">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product-grid">
+                        <div class="product-image w-100">
+                            <a href="#" class="mb-3">
+                                <img class="pic-1" src="img/img-driscolls.png" alt="Image Driscoll">
+                            </a>
+                            <span class="d-block img-capt p-2"><img class="float-left" src="img/img-hassayampa.png"
+                                    alt="Image Hassayampa"> Hassayampa Vineyard &amp; Farm</span>
+                        </div>
+                        <div class="product-content clearfix">
+                            <div class="price">
+                                <p>Driscoll's Strawberries</p>
+                                <p>$4.99/each</p>
+                            </div>
+                            <div class="footer-product">
+                                <ul class="rating">
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                </ul>
+                                <p class="text-center stats-rating">4.0 <span>(25)</span></p>
+                                <button type="button" class="btn add-to-cart">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product-grid">
+                        <div class="product-image w-100">
+                            <a href="#" class="mb-3">
+                                <img class="pic-1" src="img/img-berries.png" alt="Image Blueberries">
+                            </a>
+                            <span class="d-block img-capt p-2"><img class="float-left" src="img/img-hassayampa.png"
+                                    alt="Image Hassayampa"> Hassayampa Vineyard &amp; Farm</span>
+                        </div>
+                        <div class="product-content clearfix">
+                            <div class="price">
+                                <p>Blueberries</p>
+                                <p>$3.99/each</p>
+                            </div>
+                            <div class="footer-product">
+                                <ul class="rating">
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                </ul>
+                                <p class="text-center stats-rating">4.0 <span>(25)</span></p>
+                                <button type="button" class="btn add-to-cart">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product-grid">
+                        <div class="product-image w-100">
+                            <a href="#" class="mb-3">
+                                <img class="pic-1" src="img/img-aspagarus.png" alt="Image Asparagus">
+                            </a>
+                            <span class="d-block img-capt p-2"><img class="float-left" src="img/img-hassayampa.png"
+                                    alt="Image Hassayampa"> Hassayampa Vineyard &amp; Farm</span>
+                        </div>
+                        <div class="product-content clearfix">
+                            <div class="price">
+                                <p>Asparagus</p>
+                                <p>$0.59/each</p>
+                            </div>
+                            <div class="footer-product">
+                                <ul class="rating">
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                </ul>
+                                <p class="text-center stats-rating">4.0 <span>(25)</span></p>
+                                <button type="button" class="btn add-to-cart">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product-grid">
+                        <div class="product-image w-100">
+                            <a href="#" class="mb-3">
+                                <img class="pic-1" src="img/img-watermallon.png" alt="Image Watermallon">
+                            </a>
+                            <span class="d-block img-capt p-2"><img class="float-left" src="img/img-hassayampa.png"
+                                    alt="Image Hassayampa"> Hassayampa Vineyard &amp; Farm</span>
+                        </div>
+                        <div class="product-content clearfix">
+                            <div class="price">
+                                <p>Dulcinea PureHeart Baby Seedless Watermelon</p>
+                                <p>$4.99/each</p>
+                            </div>
+                            <div class="footer-product">
+                                <ul class="rating">
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                </ul>
+                                <p class="text-center stats-rating">4.0 <span>(25)</span></p>
+                                <button type="button" class="btn add-to-cart">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product-grid">
+                        <div class="product-image w-100">
+                            <a href="#" class="mb-3">
+                                <img class="pic-1" src="img/img-plumcot.png" alt="Image Plumcot">
+                            </a>
+                            <span class="d-block img-capt p-2"><img class="float-left" src="img/img-hassayampa.png"
+                                    alt="Image Hassayampa"> Hassayampa Vineyard &amp; Farm</span>
+                        </div>
+                        <div class="product-content clearfix">
+                            <div class="price">
+                                <p>Family Tree Farms Dapple Dandy Plumcots</p>
+                                <p>$2.99/lb</p>
+                            </div>
+                            <div class="footer-product">
+                                <ul class="rating">
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                </ul>
+                                <p class="text-center stats-rating">4.0 <span>(25)</span></p>
+                                <button type="button" class="btn add-to-cart">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product-grid">
+                        <div class="product-image w-100">
+                            <a href="#" class="mb-3">
+                                <img class="pic-1" src="img/img-tomatoes.png" alt="Image Tomatoes">
+                            </a>
+                            <span class="d-block img-capt p-2"><img class="float-left" src="img/img-hassayampa.png"
+                                    alt="Image Hassayampa"> Hassayampa Vineyard &amp; Farm</span>
+                        </div>
+                        <div class="product-content clearfix">
+                            <div class="price">
+                                <p>Hepworth Farms Local Organic Cherry Tomatoes</p>
+                                <p>$4.29/each</p>
+                            </div>
+                            <div class="footer-product">
+                                <ul class="rating">
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                </ul>
+                                <p class="text-center stats-rating">4.0 <span>(25)</span></p>
+                                <button type="button" class="btn add-to-cart">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <!-- Section of Download App starts.. -->
+    <section class="w-100 sec-downloadApp pt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 text-lg-left text-center pt-md-5 pt-0 my-5">
+                    <h2>Download The Application</h2>
+                    <p>Lorem ipsum dolor sit amem dolor sit amet, consectetur adipiscing elit.</p>
+                    <ul>
+                        <li><a href="#"><img src="img/ico-apple.png" alt="Download on the App Store"> Download on the
+                                <span class="d-block">App Store</span></a></li>
+                        <li><a href="#"><img src="img/ico-playstore.png" alt="Get it on Google Play"> Get it on <span
+                                    class="d-block">Google Play</span></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-12 d-flex flex-row">
+                    <img class="img-app" src="img/img-devices.png" alt="Download App">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer of the page Starts...  -->
+    <footer class="w-100 pt-xl-5 pb-xl-5 pt-3 pb-3">
+        <div class="container container-custom">
+            <div class="row">
+                <div class="col-xl-3 col-12 text-center text-xl-left">
+                    <div class="logo-footer w-100">
+                        <a href='index.html'><img src="img/logo-footer.png" alt="Organic Food"></a>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-12 d-xl-flex justify-content-end nav-links">
+                    <ul class="list-inline col-xl-7 col-12 px-sm-3 px-0 mx-xl-0 mx-auto d-flex justify-content-between"
+                        role="navigation">
+                        <li class="list-inline-item"><a class="text-white" href="#">How it works</a></li>
+                        <li class="list-inline-item"><a class="text-white" href="#">About</a></li>
+                        <li class="list-inline-item"><a class="text-white" href="#">Help</a></li>
+                        <li class="list-inline-item"><a class="text-white" href="#">FAQ</a></li>
+                        <li class="list-inline-item"><a class="text-white" href="#">Contact</a></li>
+                    </ul>
+                    <ul
+                        class="social-networks list-inline col-xl-2 col-4 d-flex justify-content-between mx-xl-3 mx-auto my-xl-0 mt-2">
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sign In Modal Starts.. -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title text-uppercase txt-title" id="loginModalTitle">Log in</h5>
+                    <button type="button" class="close text-white btn-close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true text-danger"><i class="fas fa-times"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="form form-details" id="form-signIn" action="#">
+                        <div class="form-group mb-3">
+                            <label for="e-address">E-mail address</label>
+                            <input id="e-address" type="text" class="form-control" placeholder="myemail@gmail.com">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="pwd">Password</label>
+                            <input id="pwd" type="password" class="form-control"
+                                placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;">
+                        </div>
+                        <div class="form-group mb-4 txt-forget">
+                            <p>Forget your password? <a href="#">Reset Now</a></p>
+                        </div>
+                        <button type="submit" class="btn btn-block mb-4 btn-primary">Sign In</button>
+                        <div class="form-group mb-5">
+                            <p><span>Log in with</span> <a href="#" class="d-inline-block mr-3 ico-fb rounded-circle"><i
+                                        class="fab fa-facebook-f"></i></a><a href="#"
+                                    class="d-inline-block rounded-circle ico-twitter"><i class="fab fa-twitter"></i></a>
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn-signUpAcc" role="button">Create Account</a>
+                    </form>
+                </div>
+                <div class="modal-footer border-0">
+                    <p>OrganicFood uses Google ReCaptcha and users are subject to Google’s <a href="#">privacy
+                            policy</a> &amp; <a href="#">terms</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sign Up Modal Starts.. -->
+    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signupModalTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title text-uppercase txt-title" id="signupModalTitle">Sign Up</h5>
+                    <button type="button" class="close text-white btn-close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true text-danger"><i class="fas fa-times"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal form-details" action="#">
+                        <h2>Delivery For:</h2>
+                        <div class="form-row ml-0 mr-0 pl-3 pr-3">
+                            <div class="custom-control custom-checkbox col-sm-3 col-12">
+                                <input type="checkbox" name="chb" class="custom-control-input checkBox" id="home-check">
+                                <label class="custom-control-label" for="home-check">Home</label>
+                            </div>
+                            <div class="custom-control custom-checkbox col-sm-9 col-12">
+                                <input type="checkbox" name="chb" class="custom-control-input checkBox" id="business">
+                                <label class="custom-control-label" for="business">Business or School address</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="first-name">First Name</label>
+                                <input type="text" class="form-control" id="first-name" placeholder="Elijah">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" class="form-control" id="last-name" placeholder="Crawford">
+                            </div>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email-add">E-mail address</label>
+                            <input id="email-add" type="email" class="form-control" placeholder="myemail@email.com">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="cell-num">Phone</label>
+                            <input id="cell-num" type="tel" class="form-control" placeholder="+1 123 456 789">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="pswd">Password</label>
+                            <input id="pswd" type="password" class="form-control"
+                                placeholder="&#9679&#9679&#9679&#9679&#9679&#9679&#9679&#9679">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="r-pswd">Repeat Password</label>
+                            <input id="r-pswd" type="password" class="form-control"
+                                placeholder="&#9679&#9679&#9679&#9679&#9679&#9679&#9679&#9679&#9679&#9679">
+                        </div>
+                        <button type="submit" class="btn btn-block mb-4 btn-primary">Sign Up</button>
+                        <div class="form-group mb-5">
+                            <p><span class="text-uppercase mr-3">Sign Up with</span> <a href="#"
+                                    class="d-inline-block mr-3 ico-fb rounded-circle"><i
+                                        class="fab fa-facebook-f"></i></a><a href="#"
+                                    class="d-inline-block rounded-circle ico-twitter"><i class="fab fa-twitter"></i></a>
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn-signUpAcc" role="button">Already have an account? Sign In</a>
+                    </form>
+                </div>
+                <div class="modal-footer border-0">
+                    <p>OrganicFood uses Google ReCaptcha and users are subject to Google’s <a href="#">privacy
+                            policy</a> &amp; <a href="#">terms</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery-slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/jquerysteps.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
+    <script>
+        $('.dropdown-menu a').click(function () {
+            $('a.dropdown-toggle').text($(this).text());
+            $('a.dropdown-toggle').val($(this).text()).addClass('add')
+                .append('<i class="fas fa-chevron-down"></i>');
+        });
+
+        //slick slider initiator
+        $(document).ready(function () {
+            $('#slider').slick({
+                centerMode: true,
+                centerPadding: '5px',
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                autoplay: false,
+                autoplaySpeed: 2000,
+                arrows: true,
+                responsive: [
+                    {
+                        breakpoint: 1200,
+                        settings: {
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 991,
+                        settings: {
+                            centerPadding: '20px',
+                            slidesToShow: 2
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    }
+                ],
+                prevArrow: "<button type='button' class='slick-prev pull-left'><img src='img/Shape.png' alt='angle-previous'></button>",
+                nextArrow: "<button type='button' class='slick-next pull-right'><img src='img/stre-right.png' alt='angle-right'></button>",
+
+
+
+
+            });
+        });
+
+
+        $(document).ready(function () {
+            $('#demo').steps();
+        });
+
+        $('.stp-nxt').on('click', function () {
+            $('.btn-shop').css('display', 'none');
+        });
+
+        $('.btn-order').on('click', function () {
+            $(this).parent().parent().parent().parent().find('.d-none').removeClass('d-none');
+            $('.step-content, .step-footer').hide();
+            $('#demo ul li:last-child a').css('color', '#0ab21b');
+
+
+
+
+            $(".checkBox").change(function () {
+                $(".checkBox").prop('checked', false);
+                $(this).prop('checked', true);
+            });
+
+
+
+
+        });
+
+
+
+        $(function () {
+            $("#tabs").tabs();
+            $("#tabs").tabs("option", {
+                "selected": 2,
+                "disabled": [1, 2, 3]
+            });
+
+            $("input[type=radio]").click(function () {
+                $('#tabs').tabs("enable", $(this).val());
+                $('#tabs').tabs("select", $(this).val());
+            });
+
+        }
+
+        );
+
+
+        $('input[name="intervaltype"]').click(function () {
+            //jQuery handles UI toggling correctly when we apply "data-target" attributes and call .tab('show')
+            //on the <li> elements' immediate children, e.g the <label> elements:
+            $(this).closest('label').tab('show');
+        });
+
+    </script>
+    <script>
+        $('body').append('<div style="" id="loadingDiv"><div class="loader">Loading...</div></div>');
+        $(window).on('load', function () {
+            setTimeout(removeLoader, 1000); //wait for page load PLUS two seconds.
+        });
+        function removeLoader() {
+            $("#loadingDiv").hide(1000, function () {
+                // fadeOut complete. Remove the loading div
+                $("#loadingDiv").remove(); //makes page more lightweight 
+            });
+        }
+    </script>
+</body>
+
+</html>
